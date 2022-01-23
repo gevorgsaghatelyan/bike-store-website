@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+body {
+  background: #000;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#size {
+  font-size: 2.2rem;
+  color: #ac2415;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_area {
+  list-style: none;
+}
+
+.nav_area li {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.nav_area li a {
+  transition: 0.3s;
+  color: #fff;
+}
+
+.nav_area li a:hover {
+  color: #e74c3c;
+}
+
+.btn_area {
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #e74c3c;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+
+main .img_1 {
+  background: url('../assets/fir.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .img_1 img {
+  width: 40vw;
+  height: 50vh;
+}
+
+main .img_1 h1 {
+  font-size: 38px;
+  color: #fff;
+}
+
+main .img_1 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+main .img_1 button {
+  font-size: 20px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+main .img_2 {
+  width: 40vw;
+  height: 50vh;
+  border: 1px solid;
+}
+
+main .img_2 {
+  background: url('../assets/bike_2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .img_2 img {
+  width: 40vw;
+  height: 50vh;
+}
+
+main .img_2 h1 {
+  font-size: 37px;
+  color: #fff;
+}
+
+main .img_2 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+main .img_2 button {
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.fast {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  line-height: 50px;
+}
+
+.fast .trek {
+  background: url('../assets/bike_3.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.fast .trek .trek_btns #btn_1 {
+  padding: 10px 20px;
+}
+
+.fast .trek .trek_btns #btn_2 {
+  padding: 10px 20px;
+}
+
+.text {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin: 50px;
+}
+
+.training {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tr_1 {
+  background: url('../assets/bike_4.png');
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  line-height: 50px;
+}
+
+.tr_1 button {
+  padding: 10px 20px;
+}
+
+.tr_2 {
+  background: url('../assets/bike_5.jpg');
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 80px;
+}
+
+.tr_2 button {
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background: #151617;
+  line-height: 30px;
+  list-style: none;
+  font-weight: 100;
+  padding: 50px;
+}
+
+footer h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  list-style: none;
+  font-style: italic;
+}
+
+footer ul li a {
+  list-style: none;
+  color: #fff;
+}
+
+/* Responsiveness */
+@media (max-width: 650px) {
+  header {
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+  }
+  header .bike_1 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .nav_area {
+    width: 75vw;
+    display: grid;
+    place-items: center;
+  }
+  li {
+    margin-top: 10px;
+  }
+  .btn_area {
+    margin-top: 10px;
+  }
+  main {
+    display: grid;
+  }
+  main .img_1 {
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  main .img_2 {
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  .training {
+    display: grid;
+  }
+  .training .tr_1 {
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  .training .tr_2 {
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  footer {
+    display: grid;
+  }
+  footer .shop {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  footer .inside_trek {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  footer .support {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  footer .legal {
+    font-size: 25px;
+  }
+}

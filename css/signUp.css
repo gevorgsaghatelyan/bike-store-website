@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e74c3c;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.container {
+  width: 480px;
+  height: 410px;
+  background: #000;
+
+}
+
+.above {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.fa-times {
+  font-size: 20px;
+  color: #52575a;
+}
+
+.name_input {
+  margin: 20px 50px;
+}
+
+.first_name {
+  height: 30px;
+  width: 190px;
+}
+
+.last_name {
+  height: 30px;
+  width: 180px;
+}
+
+.email {
+  margin: 30px 50px;
+}
+
+input[type="email"] {
+  height: 30px;
+  width: 375px;
+}
+
+.password {
+  margin: 30px 50px;
+}
+
+input[type="password"] {
+  height: 30px;
+  width: 375px;
+}
+
+.birthday {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  width: 125px;
+  height: 30px;
+}
+
+.gender {
+  margin: 30px 50px;
+}
+
+.female {
+  border: 1px solid gray;
+  margin: 17px;
+  padding: 10px;
+}
+
+.male {
+  border: 1px solid gray;
+  margin: 17px;
+  padding: 10px;
+}
+
+.custom {
+  border: 1px solid gray;
+  margin: 17px;
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.sign_up {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background: #7f8c8d;
+  text-decoration: none;
+}

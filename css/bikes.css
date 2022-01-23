@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#size {
+  font-size: 2.2rem;
+  color: #1518ac;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.above {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2d70b3;
+  color: #fff;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.above p {
+  margin-top: 20px;
+}
+
+.bikes_container {
+  display: flex;
+  padding: 20px;
+}
+
+.bikes_container .bike_1 {
+  font-size: 12px;
+  background: url('../assets/bikes_bike_1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.bikes_container .bike_2 {
+  font-size: 12px;
+  background: url('../assets/bikes_bike_2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.bikes_container .watch {
+  font-size: 12px;
+  background: url('../assets/watch.png');
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.bikes_container .suspension_fork {
+  font-size: 12px;
+  background: url('../assets/suspension_fork.png');
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+}
+
+.accessories {
+  display: flex;
+  padding: 20px;
+}
+
+.accessories .powermeter_pedal {
+  background: url('../assets/powermeter_pedal.jpg');
+  font-size: 12px;
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.accessories .winter_road_shoe {
+  background: url('../assets/winter_road_shoe.jpg');
+  font-size: 12px;
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.accessories .camelbak {
+  background: url('../assets/camelbak.jpg');
+  font-size: 12px;
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.accessories .helmet {
+  background: url('../assets/giro_helmet.png');
+  font-size: 12px;
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+  height: 400px;
+  border: 1px solid #95afc0;
+  margin-right: 20px;
+}
+
+.brand_container {
+  padding: 60px;
+}
+
+.brand_container img {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  padding: 40px;
+  background: #2d3436;
+  color: #fff;
+  line-height: 30px;
+}
+
+footer h1 {
+  border-bottom: 2px solid #fff;
+  margin: 15px;
+}
+
+footer .about_page {
+  width: 400px;
+  margin-right: 30px;
+}
+
+footer .about_page .icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+footer .get_in_touch {
+  width: 400px;
+  margin-right: 30px;
+}
+
+footer .useful_links {
+  width: 400px;
+  margin-right: 30px;
+}
+
+footer .latest_projects {
+  width: 400px;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer_end {
+  padding: 20px;
+  background: #2d3436;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_end h3 {
+  color: wheat;
+  padding: 20px;
+}
+
+.footer_end .input_container {
+  padding: 40px;
+}
+
+.footer_end .input_container input,
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 0.2rem;
+}
+
+.footer_end .input_container button {
+  background: #e65a5a;
+  color: #fff;
+}
+
+/* Responsiveness */
+@media (max-width: 650px) {
+  .above {
+    padding: 10px 80px;
+    text-align: center;
+  }
+  .above h4 {
+    margin-top: 20px;
+  }
+  .bikes_container {
+    display: grid;
+  }
+  .bikes_container .bike_1 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .bikes_container .bike_2 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .bikes_container .watch {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .bikes_container .suspension_fork {
+    width: 100%;
+  }
+  .accessories {
+    display: grid;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .accessories .powermeter_pedal {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .accessories .winter_road_shoe {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .accessories .camelbak {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .accessories .helmet {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .brand_container .brand {
+    width: 70px;
+    height: 70px;
+  }
+  footer {
+    display: grid;
+    place-items: center;
+  }
+  footer .footer {
+    margin-bottom: 20px;
+  }
+}
